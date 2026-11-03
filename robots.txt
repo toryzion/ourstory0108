@@ -1,0 +1,13 @@
+# 카카오톡·문자 미리보기 크롤러는 허용 (허용하지 않으면 공유 시 썸네일이 뜨지 않습니다)
+User-agent: kakaotalk-scrap
+Allow: /
+
+User-agent: facebookexternalhit
+Allow: /
+
+User-agent: Twitterbot
+Allow: /
+
+# 검색엔진 색인은 차단 (계좌번호가 검색 결과에 노출되는 것을 막습니다)
+User-agent: *
+Disallow: /
